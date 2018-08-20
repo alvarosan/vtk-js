@@ -16,7 +16,7 @@ rgbPresetNames.sort();
 
 // ----------------------------------------------------------------------------
 
-function getPresetByName(name) {
+export function getPresetByName(name) {
   return presetMap[name];
 }
 
